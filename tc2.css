@@ -1,0 +1,113 @@
+body{
+  font-family: sans-serif;
+  background-image: linear-gradient(95deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+  background-size: 400% 400%;
+  animation: bganimation 15s infinite
+}
+.box{
+  width: 1000px;
+  padding: 50px;
+  position: absolute;
+  color: #9e9e9e;
+  margin: 30px;
+  top: 165%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: left;
+  border-radius: 40px;
+}
+.box input[type = "text"],.box input[type = "date"],.box select[name="gender"],.box select[name="Religion"],.box select[name="Community"],.box select[name="clssadmitted"],.box select[name="clsstudied"],.box select[name="pass"]
+,.box select[name="fees"],.box select[name="meds"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 13px auto;
+  text-align: center;
+  border: 2px solid #34495e;
+  padding: 10px 8px;
+  width: 150px;
+  outline: none;
+  color: #757575;
+  border-radius: 30px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:hover,.box input[type = "date"]:hover,.box select[name="gender"]:hover,.box select[name="Religion"]:hover,.box select[name="Community"]:hover,.box select[name="clssadmitted"]:hover,.box select[name="clsstudied"]:hover
+,.box select[name="pass"]:hover,.box select[name="fees"]:hover,.box select[name="meds"]:hover{
+  width: 120px;
+  border-color: #c0392b;
+}
+
+.box input[type = "text"]:hover,.box input[type = "date"]:hover,.box select[name="gender"]:hover,.box select[name="Religion"]:hover,.box select[name="Community"]:hover,.box select[name="clssadmitted"]:hover,.box select[name="clsstudied"]:hover
+,.box select[name="pass"]:hover,.box select[name="fees"]:hover,.box select[name="meds"]:hover{
+  width: 120px;
+  border-color: #c0392b;
+}
+.box table{
+  border:5;
+  background: none;
+  position: relative;
+  display: contents;
+  display: block;
+  margin: 10px auto;
+  text-align: justify;
+  border: 2px solid #34495e;
+  padding: 20px 200px;
+  width: 600px;
+  outline: none;
+  color: #757575;
+  border-radius: 30px;
+  transition: 0.25s;
+}
+.box select{
+  border:0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #34495e;
+  padding: 10px 10px;
+  width: 120px;
+  outline: none;
+  color: #757575;
+  border-radius: 30px;
+  transition: 0.25s;
+}
+.box select:hover{
+  width: 140px;
+  border-color: #c0392b;
+}
+.box input[type = "submit"]{
+  border:0;
+  width: 300px;
+  padding: 50px;
+  top: 50%;
+  left: 50%;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #34495e;
+  padding: 14px 30px;
+  position: center;
+  outline: none;
+  color: #757575;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  border: 2px solid #c0392b;
+  background: #c0392b;
+}
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
